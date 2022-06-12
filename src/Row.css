@@ -12,11 +12,15 @@
 .row_poster {
     width: 100%;
     object-fit: contain;
-    max-height: 200px;
+    max-height: 100px;
     margin-right: 10px;
     transition: transform 450ms;
 }
 
 .row_poster:hover {
     transform: scale(1.1);
+}
+
+.row__posterlargeRow {
+    max-height: 250px;
 }
